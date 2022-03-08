@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
+
+# with this "allow-override" means that we want to say that we can override all the default properties of the Config-server
+# in any microservice in its  application.yml file
